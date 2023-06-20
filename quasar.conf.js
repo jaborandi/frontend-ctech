@@ -53,8 +53,8 @@ module.exports = configure(function (ctx) {
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
         APP_NAME: 'CTECH',
-        API_URL: 'http://localhost:8060/',
-        API_PATH: 'http://localhost:8060/api/',
+        API_URL: 'https://ctechapi.jaborandi.sp.gov.br/',
+        API_PATH: 'https://ctechapi.jaborandi.sp.gov.br/api/',
         STORAGE_KEY: 'CTECH',
         PUBLIC_URL : '/'
       },
