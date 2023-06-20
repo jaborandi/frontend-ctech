@@ -18,6 +18,11 @@
                             </template>
                         </div>
                         <div  class="col-md-auto col-12 " >
+                            <q-btn       :rounded="false"  size=""  color="primary" no-caps  unelevated   :to="`/catinvent`" class="full-width" >
+                                Categorias 
+                            </q-btn>
+                        </div>
+                        <div  class="col-md-auto col-12 " >
                             <q-input debounce="1000"  placeholder="Pesquisa" v-model="filters.search.value" >
                             <template v-slot:append>
                                 <q-icon name="search"></q-icon>
