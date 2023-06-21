@@ -6,8 +6,8 @@ export const AppMenus = {
 	navbarSideLeft: [
   {
     "path": "/home",
-    "label": "Home",
-    "icon": "extension",
+    "label": "Início",
+    "icon": "dashboard",
     "iconcolor": "",
     "target": "",
     "submenu": []
@@ -37,58 +37,9 @@ export const AppMenus = {
     "submenu": []
   },
   {
-    "path": "/permissions",
-    "label": "Permissions",
-    "icon": "extension",
-    "iconcolor": "",
-    "target": "",
-    "submenu": []
-  },
-  {
-    "path": "/roles",
-    "label": "Roles",
-    "icon": "extension",
-    "iconcolor": "",
-    "target": "",
-    "submenu": []
-  },
-  {
-    "path": "/inventário",
+    "path": "/inventario",
     "label": "Inventário",
     "icon": "shopping_cart",
-    "iconcolor": "",
-    "target": "",
-    "submenu": [
-      {
-        "path": "/catinvent",
-        "label": "Categorias",
-        "icon": "",
-        "iconcolor": "",
-        "target": "",
-        "submenu": []
-      },
-      {
-        "path": "/inventario",
-        "label": "Itens",
-        "icon": "",
-        "iconcolor": "",
-        "target": "",
-        "submenu": []
-      }
-    ]
-  },
-  {
-    "path": "/permissoes",
-    "label": "Permissoes",
-    "icon": "extension",
-    "iconcolor": "",
-    "target": "",
-    "submenu": []
-  },
-  {
-    "path": "/cargos",
-    "label": "Cargos",
-    "icon": "extension",
     "iconcolor": "",
     "target": "",
     "submenu": []
